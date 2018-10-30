@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547D4826216F456500B8FCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D4825216F456500B8FCC6 /* AppDelegate.swift */; };
+		547D4828216F456500B8FCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D4827216F456500B8FCC6 /* ViewController.swift */; };
+		547D482B216F456600B8FCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D4829216F456600B8FCC6 /* Main.storyboard */; };
+		547D482D216F456700B8FCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547D482C216F456700B8FCC6 /* Assets.xcassets */; };
+		547D4830216F456700B8FCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D482E216F456700B8FCC6 /* LaunchScreen.storyboard */; };
+		54D124E9217505FF00BA7980 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D124E8217505FF00BA7980 /* RealmService.swift */; };
+		54FE274F216F61B9003B03F1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE274B216F61B8003B03F1 /* Model.swift */; };
+		54FE2750216F61B9003B03F1 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE274D216F61B9003B03F1 /* WeatherService.swift */; };
+		54FE2751216F61B9003B03F1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE274E216F61B9003B03F1 /* Router.swift */; };
+		7D8B0433FE4F71F614E2DC83 /* Pods_weather_realm_decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1641747FB95C5DC1410CBBAD /* Pods_weather_realm_decodable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1641747FB95C5DC1410CBBAD /* Pods_weather_realm_decodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather_realm_decodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2046AAC706B14D6A5D9EF18D /* Pods-weather_realm+decodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather_realm+decodable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weather_realm+decodable/Pods-weather_realm+decodable.debug.xcconfig"; sourceTree = "<group>"; };
+		547D4822216F456500B8FCC6 /* weather_realm+decodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather_realm+decodable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547D4825216F456500B8FCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547D4827216F456500B8FCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		547D482A216F456600B8FCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547D482C216F456700B8FCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547D482F216F456700B8FCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547D4831216F456700B8FCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D124E8217505FF00BA7980 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		54FE274B216F61B8003B03F1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		54FE274D216F61B9003B03F1 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		54FE274E216F61B9003B03F1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9B650DCCA179CA11FB731A65 /* Pods-weather_realm+decodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather_realm+decodable.release.xcconfig"; path = "Pods/Target Support Files/Pods-weather_realm+decodable/Pods-weather_realm+decodable.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547D481F216F456500B8FCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8B0433FE4F71F614E2DC83 /* Pods_weather_realm_decodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144859301275EFED15DB5D62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2046AAC706B14D6A5D9EF18D /* Pods-weather_realm+decodable.debug.xcconfig */,
+				9B650DCCA179CA11FB731A65 /* Pods-weather_realm+decodable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		547D4819216F456500B8FCC6 = {
+			isa = PBXGroup;
+			children = (
+				547D4824216F456500B8FCC6 /* weather_realm+decodable */,
+				547D4823216F456500B8FCC6 /* Products */,
+				144859301275EFED15DB5D62 /* Pods */,
+				F3EBF955D10233F8B51B42BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547D4823216F456500B8FCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547D4822216F456500B8FCC6 /* weather_realm+decodable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547D4824216F456500B8FCC6 /* weather_realm+decodable */ = {
+			isa = PBXGroup;
+			children = (
+				547D4825216F456500B8FCC6 /* AppDelegate.swift */,
+				547D4827216F456500B8FCC6 /* ViewController.swift */,
+				547D4829216F456600B8FCC6 /* Main.storyboard */,
+				547D482C216F456700B8FCC6 /* Assets.xcassets */,
+				547D482E216F456700B8FCC6 /* LaunchScreen.storyboard */,
+				547D4831216F456700B8FCC6 /* Info.plist */,
+				54D124E8217505FF00BA7980 /* RealmService.swift */,
+				54FE274A216F61B8003B03F1 /* Model */,
+				54FE274C216F61B9003B03F1 /* NetworkLayer */,
+			);
+			path = "weather_realm+decodable";
+			sourceTree = "<group>";
+		};
+		54FE274A216F61B8003B03F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54FE274B216F61B8003B03F1 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54FE274C216F61B9003B03F1 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				54FE274D216F61B9003B03F1 /* WeatherService.swift */,
+				54FE274E216F61B9003B03F1 /* Router.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		F3EBF955D10233F8B51B42BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1641747FB95C5DC1410CBBAD /* Pods_weather_realm_decodable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547D4821216F456500B8FCC6 /* weather_realm+decodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D4834216F456700B8FCC6 /* Build configuration list for PBXNativeTarget "weather_realm+decodable" */;
+			buildPhases = (
+				21AAF1D8FCB7FDBA94FA4C53 /* [CP] Check Pods Manifest.lock */,
+				547D481E216F456500B8FCC6 /* Sources */,
+				547D481F216F456500B8FCC6 /* Frameworks */,
+				547D4820216F456500B8FCC6 /* Resources */,
+				88C58F6C54732DEFC1EC2D05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "weather_realm+decodable";
+			productName = "weather_realm+decodable";
+			productReference = 547D4822216F456500B8FCC6 /* weather_realm+decodable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547D481A216F456500B8FCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Artem Hrebinik";
+				TargetAttributes = {
+					547D4821216F456500B8FCC6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 547D481D216F456500B8FCC6 /* Build configuration list for PBXProject "weather_realm+decodable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547D4819216F456500B8FCC6;
+			productRefGroup = 547D4823216F456500B8FCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547D4821216F456500B8FCC6 /* weather_realm+decodable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547D4820216F456500B8FCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547D4830216F456700B8FCC6 /* LaunchScreen.storyboard in Resources */,
+				547D482D216F456700B8FCC6 /* Assets.xcassets in Resources */,
+				547D482B216F456600B8FCC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21AAF1D8FCB7FDBA94FA4C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-weather_realm+decodable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C58F6C54732DEFC1EC2D05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-weather_realm+decodable/Pods-weather_realm+decodable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weather_realm+decodable/Pods-weather_realm+decodable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547D481E216F456500B8FCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FE2750216F61B9003B03F1 /* WeatherService.swift in Sources */,
+				54D124E9217505FF00BA7980 /* RealmService.swift in Sources */,
+				54FE274F216F61B9003B03F1 /* Model.swift in Sources */,
+				54FE2751216F61B9003B03F1 /* Router.swift in Sources */,
+				547D4828216F456500B8FCC6 /* ViewController.swift in Sources */,
+				547D4826216F456500B8FCC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		547D4829216F456600B8FCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D482A216F456600B8FCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547D482E216F456700B8FCC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547D482F216F456700B8FCC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547D4832216F456700B8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547D4833216F456700B8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547D4835216F456700B8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2046AAC706B14D6A5D9EF18D /* Pods-weather_realm+decodable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VTG976PZS;
+				INFOPLIST_FILE = "weather_realm+decodable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.weather-realm-decodable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547D4836216F456700B8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B650DCCA179CA11FB731A65 /* Pods-weather_realm+decodable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VTG976PZS;
+				INFOPLIST_FILE = "weather_realm+decodable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.weather-realm-decodable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547D481D216F456500B8FCC6 /* Build configuration list for PBXProject "weather_realm+decodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D4832216F456700B8FCC6 /* Debug */,
+				547D4833216F456700B8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547D4834216F456700B8FCC6 /* Build configuration list for PBXNativeTarget "weather_realm+decodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547D4835216F456700B8FCC6 /* Debug */,
+				547D4836216F456700B8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547D481A216F456500B8FCC6 /* Project object */;
+}

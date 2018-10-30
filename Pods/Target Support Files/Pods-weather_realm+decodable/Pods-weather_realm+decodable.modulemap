@@ -1,0 +1,6 @@
+framework module Pods_weather_realm_decodable {
+  umbrella header "Pods-weather_realm+decodable-umbrella.h"
+
+  export *
+  module * { export * }
+}
